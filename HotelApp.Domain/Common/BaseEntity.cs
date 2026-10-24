@@ -1,0 +1,13 @@
+﻿using System;
+using System.Collections.Generic;
+using System.Text;
+
+namespace HotelApp.Domain.Common
+{
+    public class BaseEntity<TKey>
+    {
+        public TKey Id { get; set; } = default!;
+        public DateTime CreatedAt { get; set; } = DateTime.UtcNow;
+        public DateTime? UpdatedAt { get; set; }
+    }
+}

@@ -1,0 +1,10 @@
+{
+  "profiles": {
+    "HotelApp.Domain": {
+      "commandName": "Project"
+    },
+    "Profile 1": {
+      "commandName": "Project"
+    }
+  }
+}
